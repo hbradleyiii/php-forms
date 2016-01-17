@@ -5,12 +5,9 @@ Generally, I've used this code as a starting point or a "boilerplate," using
 only the pieces I need.  This is legacy code uploaded to github for archiving
 purposes.  Use at your own risk.
 
-Harold Bradley III
-http://www.haroldbradleyiii.com/
-Copyright 2010
-version 1.2
-license GNU Lesser General Public License
-(http://www.gnu.org/copyleft/lesser.html)
+Harold Bradley III, http://www.haroldbradleyiii.com/
+
+Copyright 2010 version 1.2
 
 ## Form Validation
 
@@ -32,7 +29,7 @@ appropriately by the controller.
 
 ## Session Data
 
-'''php
+```php
 $fmName                              // The name of the current form, this
                                      // allows for possible multiple forms per
                                      // page.
@@ -53,8 +50,7 @@ $_SESSION[$fmName]['turingText']     // A string containing a random turing text
                                      // the user is to type.
 $_SESSION[$fmName]['valLink']        // A string containing a 32 character
                                      // validation link.
-
-'''
+```
 
 ## Files
 
