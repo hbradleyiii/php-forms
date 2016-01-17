@@ -1,0 +1,51 @@
+/* Basic styles */
+
+body {
+  background-color: #eeeeff;
+  color: #000000;
+  font: small Verdana, Arial, sans-serif;
+  padding: 0 10em;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+    /* Form Styles */
+form {margin: 0 auto; display: block; width: 49em;}
+form div {padding: 0 0 1em 0; position: relative;}
+form div label {position: relative; line-height: 1.1; width: 12em; padding: .25em 1.75em 0 0; float: left; text-align: right;}
+
+    /* Messages & Required asterisk */
+form div label span {display: block; position: absolute;  width: 25em; top: .25em; left: 26.5em; text-align: left;}
+form div label abbr {display: block; float: left; width: .75em; font-size: 1em;}
+form div label strong {display: block; float: left; width: 24.25em; padding-left: 1.25em; font-size: 0.8em; color: #cc0000;}
+form div label#message-label span strong {width: 16.25em;}
+form div label#message-label span {left: 34.5em;}
+
+form div input.checkbox{display: block; width: 1.5em; margin-left: 13.5em;}
+form div label.checkbox{position: absolute; left: 15.5em; top: -0.3em; text-align: left;}
+form div label.checkbox span {top: .3em; left: -13.5em; z-index: -1;}
+
+    /* Specific Form Element Styles */
+form div input {width: 12em; display: block; line-height: 1;}
+form div select{}
+form div textarea {width: 20em; display: block; line-height: 1;}
+form input.submit {margin: 0 0 0 13.5em; width: 6em; float: left;}
+
+.fieldError{border: 1px solid #cc0000; background-color: #ffffff;}
+
+
+a:link {
+  color: #C0C0FF;
+}
+
+a:visited {
+  color: #A0A0FF;
+}
+
+a:hover, a:focus, a:active {
+  color: #F0A000;
+}
+
+.hide{display: none;}

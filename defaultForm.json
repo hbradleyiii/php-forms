@@ -1,0 +1,105 @@
+/**
+ * Form data JSON file
+ *
+ * @package     php-forms
+ * @author      Harold Bradley III <harold@bradleystudio.net>
+ * @copyright   2010  Harold Bradley
+ * @license     http://www.opensource.org/licenses/bsd-license.php BSD License
+ * @version 1.0
+ */
+
+var phpFormData = {
+    "formName": "defaultForm",
+
+    "formErrorClass": "fieldError",
+
+    "form": {
+        "empty": {
+            "type": "text",
+            "value": "",
+            "valTypes": ["empty"]
+        },
+
+        "firstName": {
+            "type": "text",
+            "value": "",
+            "valTypes": ["required", "name", "min2", "max25"]
+        },
+
+        "lastName": {
+            "type": "text",
+            "value": "",
+            "valTypes": ["required", "name", "min2", "max25"]
+        },
+
+        "usTelephone": {
+            "type": "text",
+            "value": "",
+            "valTypes": ["required", "usTelephone"]
+        },
+
+        "email": {
+            "type": "text",
+            "value": "",
+            "valTypes": ["required", "email"]
+         },
+
+        "car": {
+            "type": "select",
+            "value": "",
+            "posValues": ["volvo", "saab", "mercedes", "audi", ""]
+        },
+
+        "message": {
+            "type": "textarea",
+            "value": "",
+            "valTypes": ["required", "message"]
+        },
+
+        "bike": {
+            "type": "checkbox",
+            "value": false,
+            "valTypes": ["checkbox"]
+        },
+
+        "turingbox": {
+            "type": "text",
+            "value": "",
+            "valTypes": ["required", "turing"]
+        }
+    },
+
+    "formErrorMsg": [
+        "",
+        "The form contains errors. Please correct these errors and submit again.",
+        "Your form has expired. Please try again.",
+        "The submission of this form appeared to be automated. Please wait a few seconds and try again.",
+        "There was an error processing your form. Please try again.",
+        "Your browser must support and have cookies enabled in order to submit this form.",
+        "Oops! There was an error processing your form. Please try again."
+    ],
+
+    "fieldErrorMsg": {
+        "email": "Please enter a valid email address",
+        "empty": "Please leave this field empty",
+        "max25": "This field can have no more than 25 characters",
+        "message": "Please enter 1000 characters or less",
+        "min2": "This field must have at least 2 characters",
+        "name": "Please only use letters, spaces, and numbers",
+        "nopassword": "Please enter your password",
+        "required": "This field is required",
+        "selectnovalue": "ERROR!",
+        "turing": "This field is not correct",
+        "usTelephone": "Please enter a valid US telephone number"
+    },
+
+    "errorTags": [
+        "span",
+        "strong"
+    ],
+
+    "errorTagsBranch": [
+        0,
+        0
+    ]
+}

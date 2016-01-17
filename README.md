@@ -9,6 +9,9 @@ Harold Bradley III, http://www.haroldbradleyiii.com/
 
 Copyright 2010 version 1.2
 
+Be sure to change email address and email hosting configuration in
+views/submit.inc.php to a valid email address.
+
 ## Form Validation
 
 In php-forms, forms go through three sessions:
