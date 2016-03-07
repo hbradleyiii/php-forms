@@ -1,4 +1,4 @@
-# php-forms
+# php_forms
 A php class for managing html forms and preventing bot submissions.
 
 Generally, I've used this code as a starting point or a "boilerplate," using
