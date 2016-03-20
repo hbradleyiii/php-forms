@@ -85,3 +85,7 @@ php-forms.inc.php
 
   - Contains the controlling scripts that determine what page is being loaded
     and runs php-forms methods accordingly
+
+----
+
+*Soli Deo gloria.*
